@@ -1,0 +1,21 @@
+{
+  "images" : [
+    {
+      "filename" : "red-rick-and-morty-silhouette-minimalism-u0vib2avp08tt1dk.jpg",
+      "idiom" : "universal",
+      "scale" : "1x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "2x"
+    },
+    {
+      "idiom" : "universal",
+      "scale" : "3x"
+    }
+  ],
+  "info" : {
+    "author" : "xcode",
+    "version" : 1
+  }
+}

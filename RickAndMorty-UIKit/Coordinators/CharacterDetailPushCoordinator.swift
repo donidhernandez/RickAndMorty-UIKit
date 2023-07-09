@@ -9,14 +9,15 @@ import UIKit
 
 class CharacterDetailPushCoordinator: Coordinator {
     var navigationController: UINavigationController?
-    var character: Character?
+    var character: Character
     
-    init(navigationController: UINavigationController?, character: Character?) {
+    init(navigationController: UINavigationController?, character: Character) {
         self.navigationController = navigationController
         self.character = character
     }
     
     func start() {
-        
+        let characterDetailView = CharacterDetailViewController(character: character)
+        navigationController?.pushViewController(characterDetailView, animated: true)
     }
 }

@@ -7,6 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F21CD5392A5A99D900340A2F /* CharacterDetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21CD5382A5A99D900340A2F /* CharacterDetailView.swift */; };
+		F21D46C42A54A5CC00CF5848 /* CharacterListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D46C32A54A5CC00CF5848 /* CharacterListViewController.swift */; };
+		F21D46C62A54A86700CF5848 /* ListOfCharactersTableViewDataSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D46C52A54A86700CF5848 /* ListOfCharactersTableViewDataSource.swift */; };
+		F21D46C92A54AE3000CF5848 /* Kingfisher in Frameworks */ = {isa = PBXBuildFile; productRef = F21D46C82A54AE3000CF5848 /* Kingfisher */; };
+		F21D46CB2A54C93800CF5848 /* ListOfCharactersTableViewDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D46CA2A54C93800CF5848 /* ListOfCharactersTableViewDelegate.swift */; };
+		F21D46CD2A54D01600CF5848 /* APIClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = F21D46CC2A54D01600CF5848 /* APIClient.swift */; };
+		F22FB08F2A5B11DD0022C120 /* CharacterDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F22FB08E2A5B11DD0022C120 /* CharacterDetailViewController.swift */; };
 		F248821D2A534F74006E0580 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248821C2A534F74006E0580 /* AppDelegate.swift */; };
 		F248821F2A534F74006E0580 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248821E2A534F74006E0580 /* SceneDelegate.swift */; };
 		F24882262A534F75006E0580 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F24882252A534F75006E0580 /* Assets.xcassets */; };
@@ -16,9 +23,17 @@
 		F24882392A53AC23006E0580 /* CharacterResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24882382A53AC23006E0580 /* CharacterResponse.swift */; };
 		F248823B2A53AF3C006E0580 /* Info.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248823A2A53AF3C006E0580 /* Info.swift */; };
 		F248823D2A53B005006E0580 /* Character.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248823C2A53B005006E0580 /* Character.swift */; };
+		F248823F2A53B292006E0580 /* CharactersListView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F248823E2A53B292006E0580 /* CharactersListView.swift */; };
+		F24882412A53B7EF006E0580 /* CharacterListCellView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F24882402A53B7EF006E0580 /* CharacterListCellView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		F21CD5382A5A99D900340A2F /* CharacterDetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailView.swift; sourceTree = "<group>"; };
+		F21D46C32A54A5CC00CF5848 /* CharacterListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListViewController.swift; sourceTree = "<group>"; };
+		F21D46C52A54A86700CF5848 /* ListOfCharactersTableViewDataSource.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCharactersTableViewDataSource.swift; sourceTree = "<group>"; };
+		F21D46CA2A54C93800CF5848 /* ListOfCharactersTableViewDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ListOfCharactersTableViewDelegate.swift; sourceTree = "<group>"; };
+		F21D46CC2A54D01600CF5848 /* APIClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIClient.swift; sourceTree = "<group>"; };
+		F22FB08E2A5B11DD0022C120 /* CharacterDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterDetailViewController.swift; sourceTree = "<group>"; };
 		F24882192A534F74006E0580 /* RickAndMorty-UIKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "RickAndMorty-UIKit.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F248821C2A534F74006E0580 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		F248821E2A534F74006E0580 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -30,6 +45,8 @@
 		F24882382A53AC23006E0580 /* CharacterResponse.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterResponse.swift; sourceTree = "<group>"; };
 		F248823A2A53AF3C006E0580 /* Info.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Info.swift; sourceTree = "<group>"; };
 		F248823C2A53B005006E0580 /* Character.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Character.swift; sourceTree = "<group>"; };
+		F248823E2A53B292006E0580 /* CharactersListView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharactersListView.swift; sourceTree = "<group>"; };
+		F24882402A53B7EF006E0580 /* CharacterListCellView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharacterListCellView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -37,12 +54,48 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F21D46C92A54AE3000CF5848 /* Kingfisher in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F21CD5342A5A98DB00340A2F /* CharactersList */ = {
+			isa = PBXGroup;
+			children = (
+				F24882322A534FCB006E0580 /* Model */,
+				F24882312A534FBE006E0580 /* Controllers */,
+				F24882302A534FB7006E0580 /* Views */,
+			);
+			path = CharactersList;
+			sourceTree = "<group>";
+		};
+		F21CD5352A5A993700340A2F /* CharacterDetail */ = {
+			isa = PBXGroup;
+			children = (
+				F21CD5372A5A996B00340A2F /* Controllers */,
+				F21CD5362A5A994600340A2F /* Views */,
+			);
+			path = CharacterDetail;
+			sourceTree = "<group>";
+		};
+		F21CD5362A5A994600340A2F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				F21CD5382A5A99D900340A2F /* CharacterDetailView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		F21CD5372A5A996B00340A2F /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				F22FB08E2A5B11DD0022C120 /* CharacterDetailViewController.swift */,
+			);
+			path = Controllers;
+			sourceTree = "<group>";
+		};
 		F24882102A534F74006E0580 = {
 			isa = PBXGroup;
 			children = (
@@ -62,10 +115,9 @@
 		F248821B2A534F74006E0580 /* RickAndMorty-UIKit */ = {
 			isa = PBXGroup;
 			children = (
+				F21CD5352A5A993700340A2F /* CharacterDetail */,
+				F21CD5342A5A98DB00340A2F /* CharactersList */,
 				F24882332A53504A006E0580 /* Coordinators */,
-				F24882322A534FCB006E0580 /* Model */,
-				F24882312A534FBE006E0580 /* Controllers */,
-				F24882302A534FB7006E0580 /* Views */,
 				F248821C2A534F74006E0580 /* AppDelegate.swift */,
 				F248821E2A534F74006E0580 /* SceneDelegate.swift */,
 				F24882252A534F75006E0580 /* Assets.xcassets */,
@@ -78,6 +130,8 @@
 		F24882302A534FB7006E0580 /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				F248823E2A53B292006E0580 /* CharactersListView.swift */,
+				F24882402A53B7EF006E0580 /* CharacterListCellView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -85,6 +139,9 @@
 		F24882312A534FBE006E0580 /* Controllers */ = {
 			isa = PBXGroup;
 			children = (
+				F21D46C32A54A5CC00CF5848 /* CharacterListViewController.swift */,
+				F21D46C52A54A86700CF5848 /* ListOfCharactersTableViewDataSource.swift */,
+				F21D46CA2A54C93800CF5848 /* ListOfCharactersTableViewDelegate.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -95,6 +152,7 @@
 				F24882382A53AC23006E0580 /* CharacterResponse.swift */,
 				F248823A2A53AF3C006E0580 /* Info.swift */,
 				F248823C2A53B005006E0580 /* Character.swift */,
+				F21D46CC2A54D01600CF5848 /* APIClient.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -124,6 +182,9 @@
 			dependencies = (
 			);
 			name = "RickAndMorty-UIKit";
+			packageProductDependencies = (
+				F21D46C82A54AE3000CF5848 /* Kingfisher */,
+			);
 			productName = "RickAndMorty-UIKit";
 			productReference = F24882192A534F74006E0580 /* RickAndMorty-UIKit.app */;
 			productType = "com.apple.product-type.application";
@@ -152,6 +213,9 @@
 				Base,
 			);
 			mainGroup = F24882102A534F74006E0580;
+			packageReferences = (
+				F21D46C72A54AE3000CF5848 /* XCRemoteSwiftPackageReference "Kingfisher" */,
+			);
 			productRefGroup = F248821A2A534F74006E0580 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -180,11 +244,19 @@
 			files = (
 				F248821D2A534F74006E0580 /* AppDelegate.swift in Sources */,
 				F248821F2A534F74006E0580 /* SceneDelegate.swift in Sources */,
+				F21D46C62A54A86700CF5848 /* ListOfCharactersTableViewDataSource.swift in Sources */,
+				F21CD5392A5A99D900340A2F /* CharacterDetailView.swift in Sources */,
+				F21D46C42A54A5CC00CF5848 /* CharacterListViewController.swift in Sources */,
+				F248823F2A53B292006E0580 /* CharactersListView.swift in Sources */,
 				F248823D2A53B005006E0580 /* Character.swift in Sources */,
 				F24882392A53AC23006E0580 /* CharacterResponse.swift in Sources */,
 				F248823B2A53AF3C006E0580 /* Info.swift in Sources */,
 				F24882352A5350D8006E0580 /* Coordinator.swift in Sources */,
+				F22FB08F2A5B11DD0022C120 /* CharacterDetailViewController.swift in Sources */,
+				F21D46CD2A54D01600CF5848 /* APIClient.swift in Sources */,
+				F21D46CB2A54C93800CF5848 /* ListOfCharactersTableViewDelegate.swift in Sources */,
 				F24882372A53ABC8006E0580 /* CharacterDetailPushCoordinator.swift in Sources */,
+				F24882412A53B7EF006E0580 /* CharacterListCellView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -392,6 +464,25 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		F21D46C72A54AE3000CF5848 /* XCRemoteSwiftPackageReference "Kingfisher" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/onevcat/Kingfisher";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 7.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		F21D46C82A54AE3000CF5848 /* Kingfisher */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = F21D46C72A54AE3000CF5848 /* XCRemoteSwiftPackageReference "Kingfisher" */;
+			productName = Kingfisher;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = F24882112A534F74006E0580 /* Project object */;
 }
